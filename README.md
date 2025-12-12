@@ -59,7 +59,15 @@ webgis-raster-viewer/
 To run this project locally, you must have Node.js installed on your system.
 Without Node.js, commands like npm install and npm run dev will not work.
 
-Download Node.js from:
+Check Installation
+Confirm your installation by verifying the versions in your terminal:
+
+```
+node -v
+npm -v
+```
+
+If needed, install the latest Node.js LTS version:
 https://nodejs.org
 
 ---
