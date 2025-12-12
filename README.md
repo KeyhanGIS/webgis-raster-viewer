@@ -64,6 +64,8 @@ Confirm your installation by verifying the versions in your terminal:
 
 ```
 node -v
+```
+```
 npm -v
 ```
 
