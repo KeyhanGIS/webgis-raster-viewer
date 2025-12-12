@@ -37,23 +37,30 @@ webgis-raster-viewer/
 │   └── DEM_Khuzestan_90m.tif
 │
 ├── geoserver/
-│   └── style.sld
-│
-├── screenshots/
-│   ├── final_map.jpg               (final DEM + OSM output)
-│   └── geoserver/
-│       ├── dem_preview.jpg         (GeoServer preview of the DEM)
-│       ├── layer_settings.png      (layer configuration in GeoServer)
-│       └── sld_style_preview.jpg   (preview of the SLD style)
+│   ├── style.sld
+│   └── screenshots/
+│       ├── dem_preview.jpg        (GeoServer DEM preview)
+│       ├── layer_settings.png     (GeoServer layer settings)
+│       └── dem_style.jpg          (SLD style preview)
 │
 ├── react-webgis-viewer/
 │   ├── src/
 │   ├── package.json
 │   └── ...
 │
-└── architecture_analysis.md
+├── architecture_analysis.md
+│
+└── final_map.jpg                  (final DEM + OSM map output)
 ```
 
+---
+## **Prerequisites**
+
+To run this project locally, you must have Node.js installed on your system.
+Without Node.js, commands like npm install and npm run dev will not work.
+
+Download Node.js from:
+https://nodejs.org
 ---
 
 ## **Running the React App**
